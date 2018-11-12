@@ -1,23 +1,43 @@
 {
   "name": "dooy",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Tiny desktop automation tool to emulate keyboard and mouse events.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "homepage": "https://github.com/sladwig/dooy",
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^10.12.5"
+  },
   "devDependencies": {
+    "@types/jest": "^23.3.9",
     "jest": "^23.6.0",
-    "prettier": "1.15.1"
+    "prettier": "^1.15.1",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.6"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sladwig/dooy.git"
   },
   "bugs": "https://github.com/sladwig/dooy/issues",
-  "keywords": ["tests", "e2e", "click", "automation", "keypress"],
+  "keywords": [
+    "tests",
+    "e2e",
+    "click",
+    "automation",
+    "keypress"
+  ],
   "author": "Stefan Ladwig",
   "license": "MIT"
 }

@@ -1,2 +1,5 @@
 # no node_modules
 node_modules
+
+# igrnore build
+/lib/
