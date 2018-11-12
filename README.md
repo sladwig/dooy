@@ -2,7 +2,7 @@
 
 dooy is a tiny desktop automation tool to emulate keyboard and mouse events.
 
-dooy was born out of the need to emulate keyboard(and mouse) events in end to end testing scenarios. Since our current library stopped working in the latest macOS version, we were looking for a solution. That's were I found (cliclick)[https://github.com/BlueM/cliclick] a "Command-line tool for emulating mouse and keyboard events". So I decided to write a little JavaScript wrapper around that tool.
+dooy was born out of the need to emulate keyboard(and mouse) events in end to end testing scenarios. Since our current library stopped working in the latest macOS version, we were looking for a solution. That's were I found [cliclick](https://github.com/BlueM/cliclick) a "Command-line tool for emulating mouse and keyboard events". So I decided to write a little JavaScript wrapper around that tool.
 
 Currently it only supports keyboard events on macOS. More features will be added as needed, maybe even another OS.
 
@@ -18,7 +18,7 @@ or
 
 dooy expects `cliclick` to be installed on your system, it might be added as a binary one day, we'll see.
 
-To install cliclick using homebrew just type `brew install cliclick` in your terminal. For other ways to install cliclick, see the (cliclick's website)[https://github.com/BlueM/cliclick].
+To install cliclick using homebrew just type `brew install cliclick` in your terminal. For other ways to install cliclick, see the [cliclick's website](https://github.com/BlueM/cliclick).
 
 ## Usage
 

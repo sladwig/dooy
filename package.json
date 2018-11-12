@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sladwig/dooy"
+    "url": "https://github.com/sladwig/dooy.git"
   },
   "keywords": ["tests", "e2e", "click", "automation"],
   "author": "Stefan Ladwig",
