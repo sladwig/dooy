@@ -1,6 +1,6 @@
 {
   "name": "dooy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tiny desktop automation tool to emulate keyboard and mouse events.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

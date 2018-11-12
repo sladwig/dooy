@@ -1,6 +1,8 @@
-.prettierrc.json
 yarn.lock
 package-lock.json
 jest.config.js
 tsconfig.json
 tslint.json
+src
+prettier.config.js
+/lib/*.test*.js
