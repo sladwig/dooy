@@ -1,8 +1,9 @@
 {
   "name": "dooy",
-  "version": "0.1.0",
-  "description": "Tiny desktop automation tool.",
+  "version": "0.1.1",
+  "description": "Tiny desktop automation tool to emulate keyboard and mouse events.",
   "main": "index.js",
+  "homepage": "https://github.com/sladwig/dooy",
   "dependencies": {},
   "devDependencies": {
     "jest": "^23.6.0",
@@ -15,7 +16,8 @@
     "type": "git",
     "url": "https://github.com/sladwig/dooy.git"
   },
-  "keywords": ["tests", "e2e", "click", "automation"],
+  "bugs": "https://github.com/sladwig/dooy/issues",
+  "keywords": ["tests", "e2e", "click", "automation", "keypress"],
   "author": "Stefan Ladwig",
   "license": "MIT"
 }
