@@ -1,0 +1,21 @@
+{
+  "name": "dooy",
+  "version": "0.1.0",
+  "description": "Tiny desktop automation tool.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "prettier": "1.15.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sladwig/dooy"
+  },
+  "keywords": ["tests", "e2e", "click", "automation"],
+  "author": "Stefan Ladwig",
+  "license": "MIT"
+}
